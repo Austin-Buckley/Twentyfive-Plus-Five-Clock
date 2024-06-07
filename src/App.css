@@ -1,8 +1,46 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
+:root {
+  --item-bg: #263238;
+  --item-color: #cfd8dc;
+  --item-br: 0.5rem;
+  --item-direction: "column";
+  --item-align: "center";
+  --item-justify: "space-evenly";
+  --item-display: "flex";
+  --item-border: 1px solid #90a4ae22;
+}
 
+.App {
+  background-color: #1c2327;
+  min-height: 100vh;
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #cfd8dc;
+  transition: all 0.3s ease-in-out;
+}
+
+.Grid {
+  transition: all 0.3s ease-in-out;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#break-length,
+#session-length {
+  width: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.github-link {
+  text-decoration: none;
+  color: #607d8b;
+}
